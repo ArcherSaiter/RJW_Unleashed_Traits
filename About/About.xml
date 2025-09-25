@@ -3,7 +3,7 @@
     <name>RJW_Unleashed_Traits</name>
     <author>ArcherSaiter</author>
     <packageId>archersaiter.rjw.traits</packageId>
-    <modVersion>1.51</modVersion>
+    <modVersion>1.52</modVersion>
     <url>https://github.com/ArcherSaiter/RJW_Unleashed_Traits</url>
     <supportedVersions>
         <li>1.5</li>
@@ -26,5 +26,7 @@
         <li>rim.job.world</li>
 		<li>vegapnk.rjw.genes</li>
     </loadAfter>
-    <description>RJW themed traits are there! Sadists, truly insatiable, and submissive rapetoys are now at your disposal! Moreover, your warcrime needs can now also be satisfied with trait-genes, available with biotech.</description>
+    <description>RJW themed traits are there! Sadists, truly insatiable, and submissive rapetoys are now at your disposal! Moreover, your warcrime needs can now also be satisfied with trait-genes, available with biotech.
+	
+	Transformation debuff (genetics) is toggleable in Mod options > Vanilla Expanded Framework > Togglable patches</description>
 </ModMetaData>
