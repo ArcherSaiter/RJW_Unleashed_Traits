@@ -3,7 +3,7 @@
     <name>RJW_Unleashed_Traits</name>
     <author>ArcherSaiter</author>
     <packageId>archersaiter.rjw.traits</packageId>
-    <modVersion>1.52</modVersion>
+    <modVersion>1.53</modVersion>
     <url>https://github.com/ArcherSaiter/RJW_Unleashed_Traits</url>
     <supportedVersions>
         <li>1.5</li>
@@ -30,3 +30,4 @@
 	
 	Transformation debuff (genetics) is toggleable in Mod options > Vanilla Expanded Framework > Togglable patches</description>
 </ModMetaData>
+
