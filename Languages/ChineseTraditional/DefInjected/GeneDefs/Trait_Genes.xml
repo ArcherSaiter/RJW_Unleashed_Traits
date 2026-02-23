@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Animal mind -->
+  <RJW_Traits_Animal_Mind_Gene.label>動物思維</RJW_Traits_Animal_Mind_Gene.label>
+  <!-- EN: Carriers of this gene have animal-like mind. -->
+  <RJW_Traits_Animal_Mind_Gene.description>攜帶這種基因的人具有類似動物的思考方式。</RJW_Traits_Animal_Mind_Gene.description>
+  
+  <!-- EN: Brutal sadist -->
+  <RJW_Traits_Brutal_Sadist_Gene.label>殘暴的虐待狂</RJW_Traits_Brutal_Sadist_Gene.label>
+  <!-- EN: Carriers of this gene are brutally sadistic. -->
+  <RJW_Traits_Brutal_Sadist_Gene.description>攜帶這種基因的人極為殘忍嗜虐。</RJW_Traits_Brutal_Sadist_Gene.description>
+  
+  <!-- EN: Playful sadist -->
+  <RJW_Traits_Playful_Sadist_Gene.label>頑皮的虐待狂</RJW_Traits_Playful_Sadist_Gene.label>
+  <!-- EN: Carriers of this gene are playfully sadistic. -->
+  <RJW_Traits_Playful_Sadist_Gene.description>攜帶這種基因的人有玩世不恭的虐待傾向。</RJW_Traits_Playful_Sadist_Gene.description>
+  
+  <!-- EN: Pliable -->
+  <RJW_Traits_Pliable_Gene.label>柔弱</RJW_Traits_Pliable_Gene.label>
+  <!-- EN: Carriers of this gene are vulnerable. -->
+  <RJW_Traits_Pliable_Gene.description>攜帶這種基因的人容易被強暴。</RJW_Traits_Pliable_Gene.description>
+  
+  <!-- EN: Rapetoy -->
+  <RJW_Traits_Rapetoy_Gene.label>性玩具</RJW_Traits_Rapetoy_Gene.label>
+  <!-- EN: Carriers of this gene are extremely vulnerable. -->
+  <RJW_Traits_Rapetoy_Gene.description>攜帶這種基因的人極為容易被強暴。</RJW_Traits_Rapetoy_Gene.description>
+  
+  <!-- EN: Submissive -->
+  <RJW_Traits_Submissive_Gene.label>順從者</RJW_Traits_Submissive_Gene.label>
+  <!-- EN: Carriers of this gene are submissive. -->
+  <RJW_Traits_Submissive_Gene.description>攜帶這種基因的人性格順從。</RJW_Traits_Submissive_Gene.description>
+  
+  <!-- EN: Insatiable -->
+  <RJW_Traits_Insatiable_Gene.label>貪得無厭</RJW_Traits_Insatiable_Gene.label>
+  <!-- EN: Carriers of this gene are insatiable. -->
+  <RJW_Traits_Insatiable_Gene.description>攜帶這種基因的人貪得無厭。</RJW_Traits_Insatiable_Gene.description>
+  
+  <!-- EN: Sexually numb -->
+  <RJW_Traits_Sexually_Numb_Gene.label>性冷淡</RJW_Traits_Sexually_Numb_Gene.label>
+  <!-- EN: Carriers of this gene are sexually numb, they do not want to have sex, though they physically can. -->
+  <RJW_Traits_Sexually_Numb_Gene.description>攜帶這種基因的人性冷漠，他們沒有性慾，儘管生理上可以。</RJW_Traits_Sexually_Numb_Gene.description>
+  
+  <!-- EN: Incel/Femcel -->
+  <RJW_Traits_xxCel_Gene.label>關係挫敗型人格</RJW_Traits_xxCel_Gene.label>
+  <!-- EN: Carriers of this gene are socially awkward and mentally unstable. -->
+  <RJW_Traits_xxCel_Gene.description>攜帶此基因者在社交與親密關係的建立上長期受阻，導致行為與心理狀態失衡。</RJW_Traits_xxCel_Gene.description>
+  
+  <!-- EN: Bimbo/Himbo -->
+  <RJW_Traits_Bimbo_Gene.label>花瓶</RJW_Traits_Bimbo_Gene.label>
+  <!-- EN: Carriers of this gene have been modified to be dumber, but prettier versions. -->
+  <RJW_Traits_Bimbo_Gene.description>攜帶這種基因的人經過基因改造，變得智力下降，但外表更漂亮。</RJW_Traits_Bimbo_Gene.description>
+  
+</LanguageData>
