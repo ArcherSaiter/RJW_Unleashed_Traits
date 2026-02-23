@@ -588,7 +588,7 @@
     </nomatch>
 </Operation>
 
-<Operation Class="PatchOperationConditional">
+<!--<Operation Class="PatchOperationConditional">
     <xpath>/Defs/ThoughtDef[defName="ThatsMyFetish"]/nullifyingTraits</xpath>
     <match Class="PatchOperationAdd">
         <xpath>Defs/ThoughtDef[defName="ThatsMyFetish"]/nullifyingTraits</xpath>
@@ -604,7 +604,7 @@
           </nullifyingTraits>
         </value>
     </nomatch>
-</Operation>
+</Operation>-->
 
 <Operation Class="PatchOperationConditional">
     <xpath>/Defs/ThoughtDef[defName="ViolatedCorpse"]/nullifyingTraits</xpath>

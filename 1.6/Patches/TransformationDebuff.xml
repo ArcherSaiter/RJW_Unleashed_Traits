@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Patch> 
+    <Operation Class="VEF.PatchOperationToggableSequence">
+		<enabled>False</enabled>
+		<label>No consciousness debuff genetic transformations</label>
+		<mods>
+			<li>RJW_Unleashed_Traits</li>
+		</mods>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[@Name="RJW_Unleashed_TransformationBase"]/stages</xpath>
+				<value>
+					<stages>
+						<li>
+							<label>neglectable</label>
+							<becomeVisible>false</becomeVisible>
+						</li>
+						<li>
+							<label>minor</label>
+							<minSeverity>0.6</minSeverity>
+							<becomeVisible>true</becomeVisible>
+							<statOffsets>
+								<Vulnerability>0.25</Vulnerability>
+							</statOffsets>
+						</li>
+						<li>
+							<label>severe</label>
+							<minSeverity>0.8</minSeverity>
+							<becomeVisible>true</becomeVisible>
+							<statOffsets>
+								<Vulnerability>0.5</Vulnerability>
+								<SexFrequency>0.25</SexFrequency>
+							</statOffsets>
+						</li>
+						<li>
+							<label>critical</label>
+							<minSeverity>0.9</minSeverity>
+							<becomeVisible>true</becomeVisible>
+							<statOffsets>
+								<Vulnerability>1.0</Vulnerability>
+								<SexFrequency>0.5</SexFrequency>
+							</statOffsets>
+						</li>
+					</stages>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
