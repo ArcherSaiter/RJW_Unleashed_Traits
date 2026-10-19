@@ -6,8 +6,7 @@
     <modVersion>2.0</modVersion>
     <url>https://github.com/ArcherSaiter/RJW_Unleashed_Traits</url>
     <supportedVersions>
-        <li>1.5</li>
-		<li>1.6</li>
+		<li>1.7</li>
     </supportedVersions>
     <modDependencies>
         <li>
