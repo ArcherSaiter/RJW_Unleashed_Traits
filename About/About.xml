@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>RJW_Unleashed_Traits</name>
+    <author>ArcherSaiter</author>
+    <packageId>rjw.unleashed.traits</packageId>
+    <modVersion>2.0</modVersion>
+    <url>https://github.com/ArcherSaiter/RJW_Unleashed_Traits</url>
+    <supportedVersions>
+        <li>1.5</li>
+		<li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>rim.job.world</packageId>
+            <displayName>RimJobWorld</displayName>
+            <downloadUrl>https://gitgud.io/Ed86/rjw</downloadUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+        <li>brrainz.harmony</li>
+        <li>rim.job.world</li>
+		<li>vegapnk.rjw.genes</li>
+    </loadAfter>
+    <description>RJW themed traits and trait-genes, available with biotech.
+	
+	Transformation debuff (genetics) is toggleable in Mod options > Vanilla Expanded Framework > Togglable patches</description>
+</ModMetaData>
+

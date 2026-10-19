@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: playful sadist -->
+  <RJW_Traits_Playful_Sadist.degreeDatas.playful_sadist.label>頑皮的虐待狂</RJW_Traits_Playful_Sadist.degreeDatas.playful_sadist.label>
+  <!-- EN: {PAWN_nameDef} is a bit sadistic. Inflicting pain, letting blood, and other forms of violent work turn {PAWN_pronoun} on. If unsatisfied, {PAWN_nameDef} will not think twice about abusing the vulnerable. -->
+  <RJW_Traits_Playful_Sadist.degreeDatas.playful_sadist.description>{PAWN_nameDef}有點虐待傾向，施加痛苦、使人流血以及其他形式的暴力行為會讓{PAWN_pronoun}興奮。 如果得不到滿足，{PAWN_nameDef}會毫不猶豫地欺負弱者。</RJW_Traits_Playful_Sadist.degreeDatas.playful_sadist.description>
+  
+  <!-- EN: brutal sadist -->
+  <RJW_Traits_Brutal_Sadist.degreeDatas.brutal_sadist.label>殘暴的虐待狂</RJW_Traits_Brutal_Sadist.degreeDatas.brutal_sadist.label>
+  <!-- EN: {PAWN_nameDef} eerily enjoys the sight of blood, pained screams, and inflicting harm, especially torture. {PAWN_pronoun} will often try to satisfy {PAWN_objective}self forcibly, much to the detriment of vulnerable. -->
+  <RJW_Traits_Brutal_Sadist.degreeDatas.brutal_sadist.description>{PAWN_nameDef}對鮮血、痛苦的尖叫，以及傷害他人的行為抱有異常的愉悅感，尤其是酷刑。{PAWN_pronoun}經常以強制手段滿足自己，這往往會對弱者造成嚴重傷害。</RJW_Traits_Brutal_Sadist.degreeDatas.brutal_sadist.description>
+  
+  <!-- EN: pliable -->
+  <RJW_Traits_Pliable.degreeDatas.pliable.label>柔弱</RJW_Traits_Pliable.degreeDatas.pliable.label>
+  <!-- EN: [PAWN_nameDef] comes across as weak, yet attractive, often to {PAWN_possessive} own detriment. {PAWN_pronoun} is much more likely to be harassed. -->
+  <RJW_Traits_Pliable.degreeDatas.pliable.description>[PAWN_nameDef]給人的印象是軟弱又有吸引力，這往往會對{PAWN_possessive}本身造成傷害。{PAWN_pronoun}更容易受到騷擾。</RJW_Traits_Pliable.degreeDatas.pliable.description>
+  
+  <!-- EN: rapetoy -->
+  <RJW_Traits_Rapetoy.degreeDatas.rapetoy.label>性玩具</RJW_Traits_Rapetoy.degreeDatas.rapetoy.label>
+  <!-- EN: [PAWN_nameDef] looks like a delicate work of art, extremely beautiful and exceedingly fragile. {PAWN_pronoun} is so alluring and vulnerable, as if {PAWN_pronoun} was made to be abused. -->
+  <RJW_Traits_Rapetoy.degreeDatas.rapetoy.description>[PAWN_nameDef]看起來就像一件精緻的藝術品，極其美麗卻又極其脆弱。{PAWN_pronoun}是如此迷人，又不堪一擊，彷彿{PAWN_pronoun}天生就是用來被玩弄的。</RJW_Traits_Rapetoy.degreeDatas.rapetoy.description>
+  
+  <!-- EN: meek -->
+  <RJW_Traits_Submissive.degreeDatas.meek.label>溫順</RJW_Traits_Submissive.degreeDatas.meek.label>
+  <!-- EN: [PAWN_nameDef] is too submissive to fight back and puts up with offence. However, {PAWN_pronoun} doesn't enjoy the abuse, and will feel broken if overwhelmed. -->
+  <RJW_Traits_Submissive.degreeDatas.meek.description>[PAWN_nameDef]性格過於順從，不會反抗，只會默默忍受侵犯。然而，{PAWN_pronoun}其實並不喜歡被虐待，如果被虐待過度，感到崩潰是遲早的事。</RJW_Traits_Submissive.degreeDatas.meek.description>
+  
+  <!-- EN: insatiable -->
+  <RJW_Traits_Insatiable.degreeDatas.insatiable.label>貪得無厭</RJW_Traits_Insatiable.degreeDatas.insatiable.label>
+  <!-- EN: [PAWN_nameDef] is extremely desperate for intimacy, regardless of how many times {PAWN_pronoun} already had intercourse due to {PAWN_possessive} never decreasing libido. However, [PAWN_nameDef] still has {PAWN_possessive} preferences, and will not get intimate with anyone {PAWN_pronoun} sees. -->
+  <RJW_Traits_Insatiable.degreeDatas.insatiable.description>[PAWN_nameDef]極度渴望親密關係，無論{PAWN_pronoun}之前有過多少次性行為。因為{PAWN_possessive}的性慾從未減弱過。然而，[PAWN_nameDef]仍然有{PAWN_possessive}的偏好，不會與{PAWN_pronoun}看到的任何人發生親密關係。</RJW_Traits_Insatiable.degreeDatas.insatiable.description>
+  
+  <!-- EN: animalistic -->
+  <RJW_Traits_Animal_Mind.degreeDatas.animalistic.label>動物腦袋</RJW_Traits_Animal_Mind.degreeDatas.animalistic.label>
+  <!-- EN: [PAWN_nameDef]'s brain is unusually simple for their kind, and is not capable of even somewhat complex thinking or work, very little besides food bothers them. -->
+  <RJW_Traits_Animal_Mind.degreeDatas.animalistic.description>[PAWN_nameDef]的大腦是個很簡單的構造，甚至無法進行稍微複雜的思考或工作，除了食物之外，很少有事情能困擾他們。</RJW_Traits_Animal_Mind.degreeDatas.animalistic.description>
+  
+  <!-- EN: sexually indifferent -->
+  <RJW_Traits_Sexually_Numb.degreeDatas.sexually_indifferent.label>性冷淡</RJW_Traits_Sexually_Numb.degreeDatas.sexually_indifferent.label>
+  <!-- EN: [PAWN_nameDef] neither likes nor dislikes any type of sex. {PAWN_pronoun} does not need it, does not feel it, and will not care if someone exploits {PAWN_objective}. -->
+  <RJW_Traits_Sexually_Numb.degreeDatas.sexually_indifferent.description>[PAWN_nameDef]既不喜歡也不討厭任何類型的性行為。{PAWN_pronoun}不需要性，沒有性感覺，也不會在意是否有人利用{PAWN_objective}處理性慾。</RJW_Traits_Sexually_Numb.degreeDatas.sexually_indifferent.description>
+  
+  <!-- EN: himbo -->
+  <RJW_Traits_Bimbo.degreeDatas.himbo.label>花瓶男</RJW_Traits_Bimbo.degreeDatas.himbo.label>
+  <!-- EN: [PAWN_nameDef] is an attractive being, who can't seem to think about anything except {PAWN_possessive} own physical appearance. {PAWN_objective} is as empty-headed as a soap bubble, completely absorbed in {PAWN_possessive} own vanity and will do just about anything to stay attractive, including {PAWN_possessive} own dignity. [PAWN_nameDef] is utterly clueless and has no idea how {PAWN_possessive} actions affect those around them. Better keep a close eye on {PAWN_objective}, or {PAWN_pronoun} might just get {PAWN_objective} into trouble... or a mess. Again. And again. And again. However, despite the lack of learning and basic intellectual capabilities {PAWN_pronoun} is quite good at providing sexual pleasure. -->
+  <RJW_Traits_Bimbo.degreeDatas.himbo.description>[PAWN_nameDef]是個外表迷人的傢伙，但除了{PAWN_possessive}自己的外表之外，似乎什麼事都做不好。{PAWN_objective}就像個空洞的肥皂泡，完全沉浸在{PAWN_possessive}的虛榮心裡，為了保持魅力，他幾乎什麼都做得出來。包括{PAWN_possessive}自己的尊嚴。[PAWN_nameDef]完全沒腦子，根本不知道{PAWN_possessive}的行為會如何影響周遭的人。最好密切注意{PAWN_objective}，否則{PAWN_pronoun}可能會讓{PAWN_objective}陷入麻煩……或者說一團糟，一次又一次。然而，儘管缺乏學習能力和基本的智商，{PAWN_pronoun}卻非常擅長提供性快感，這究竟是……？</RJW_Traits_Bimbo.degreeDatas.himbo.description>
+  <!-- EN: bimbo -->
+  <RJW_Traits_Bimbo.degreeDatas.himbo.labelFemale>花瓶女</RJW_Traits_Bimbo.degreeDatas.himbo.labelFemale>
+  
+  <!-- EN: incel -->
+  <RJW_Traits_xxCel.degreeDatas.incel.label>關係挫敗者</RJW_Traits_xxCel.degreeDatas.incel.label>
+  <!-- EN: [PAWN_nameDef] has a deep resentment towards the opposite sex due to perceived rejection. {PAWN_pronoun} struggles with social interactions and harbors negative attitudes about relationships. -->
+  <RJW_Traits_xxCel.degreeDatas.incel.description>[PAWN_nameDef]由於感情被拒絕而對異性懷有深深的怨恨。這導致{PAWN_pronoun}不擅長社交，且對戀愛關係抱持負面態度。</RJW_Traits_xxCel.degreeDatas.incel.description>
+  <!-- EN: femcel -->
+  <RJW_Traits_xxCel.degreeDatas.incel.labelFemale>關係挫敗者</RJW_Traits_xxCel.degreeDatas.incel.labelFemale>
+  
+  <!-- EN: femboy -->
+  <RJW_Traits_Femboy.degreeDatas.femboy.label>偽娘</RJW_Traits_Femboy.degreeDatas.femboy.label>
+  <!-- EN: [PAWN_nameDef] has quite femine apperance, as well as mentality, despite being a male. He doesn't mind dressing in traditionally feminine attire and adopting mannerisms that are stereotypically feminine. -->
+  <RJW_Traits_Femboy.degreeDatas.femboy.description>[PAWN_nameDef]雖然是男生，但外表和性格都相當女性化。他不介意穿著傳統女性的服裝，也不介意模仿典型的女性舉止。</RJW_Traits_Femboy.degreeDatas.femboy.description>
+  
+  <!-- EN: tomboy -->
+  <RJW_Traits_Tomboy.degreeDatas.tomboy.label>假小子</RJW_Traits_Tomboy.degreeDatas.tomboy.label>
+  <!-- EN: [PAWN_nameDef] has somewhat masculine apperance, as well as mentality, despite being a female. She doesn't mind dressing in traditionally masculine attire and adopting mannerisms that are stereotypically masculine. -->
+  <RJW_Traits_Tomboy.degreeDatas.tomboy.description>[PAWN_nameDef]雖然是女性，但外表和性格都有些男性化。她不介意穿著傳統的男性服裝，也不介意模仿典型的男性舉止。</RJW_Traits_Tomboy.degreeDatas.tomboy.description>
+  
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneCategoryDef>
+    <defName>RJW_Unleashed_Traits</defName>
+    <label>RJW_Unleashed_Traits</label>
+    <displayPriorityInXenotype>1</displayPriorityInXenotype>
+  </GeneCategoryDef>  
+  
+</Defs>

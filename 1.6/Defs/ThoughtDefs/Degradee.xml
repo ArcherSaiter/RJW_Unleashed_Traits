@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>RJW_Degradee_Praised</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>20</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<socialTargetDevelopmentalStageFilter>Baby, Child, Adult</socialTargetDevelopmentalStageFilter>
+		<stages>
+			<li>
+				<label>belittled</label>
+				<baseOpinionOffset>10</baseOpinionOffset>
+			</li>
+		</stages>
+		<thoughtToMake>RJW_Degradee_PraisedMood</thoughtToMake>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>RJW_Degradee_PraisedMood</defName>
+		<durationDays>2</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>humiliated</label>
+				<description>Someone put me in my place, and I loved every second of it.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <RJW_Traits_Animal_Mind.degreeDatas.animalistic.label>动物化</RJW_Traits_Animal_Mind.degreeDatas.animalistic.label>
+  <RJW_Traits_Animal_Mind.degreeDatas.animalistic.description>[PAWN_nameDef]的大脑在同类中异常简单，无法进行哪怕稍微复杂的思考或工作，除了食物之外几乎没有什么能让其烦恼。</RJW_Traits_Animal_Mind.degreeDatas.animalistic.description>
+  
+  <RJW_Traits_Bimbo.degreeDatas.himbo.label>花瓶男</RJW_Traits_Bimbo.degreeDatas.himbo.label>
+  <RJW_Traits_Bimbo.degreeDatas.himbo.description>[PAWN_nameDef]是一个迷人的存在，除了{PAWN_possessive}外貌之外似乎无法思考其他任何事情。{PAWN_objective}头脑空空如也，完全沉迷于{PAWN_possessive}虚荣之中，愿意为保持吸引力做任何事，包括牺牲{PAWN_possessive}尊严。[PAWN_nameDef]极其愚钝，完全不知道{PAWN_possessive}行为会如何影响周围的人。最好盯紧{PAWN_objective}，否则{PAWN_pronoun}可能会让{PAWN_objective}陷入麻烦……或混乱。一次又一次。然而，尽管缺乏学习和基本智力，{PAWN_pronoun}在提供性快感方面相当出色。</RJW_Traits_Bimbo.degreeDatas.himbo.description>
+  <RJW_Traits_Bimbo.degreeDatas.himbo.labelFemale>花瓶女</RJW_Traits_Bimbo.degreeDatas.himbo.labelFemale>
+  
+  <RJW_Traits_Brutal_Sadist.degreeDatas.brutal_sadist.label>残暴的虐待狂</RJW_Traits_Brutal_Sadist.degreeDatas.brutal_sadist.label>
+  <RJW_Traits_Brutal_Sadist.degreeDatas.brutal_sadist.description>{PAWN_nameDef}病态地享受鲜血、痛苦的尖叫以及施加伤害，尤其是酷刑。{PAWN_pronoun}经常会强行满足自己，这给弱者带来极大的伤害。</RJW_Traits_Brutal_Sadist.degreeDatas.brutal_sadist.description>
+  
+  <RJW_Traits_Femboy.degreeDatas.femboy.label>伪娘</RJW_Traits_Femboy.degreeDatas.femboy.label>
+  <RJW_Traits_Femboy.degreeDatas.femboy.description>[PAWN_nameDef]尽管是男性，但外表和心态都相当女性化。他不介意穿着传统女性服装，并表现出刻板印象中的女性举止。</RJW_Traits_Femboy.degreeDatas.femboy.description>
+  
+  <RJW_Traits_Insatiable.degreeDatas.insatiable.label>欲求不满</RJW_Traits_Insatiable.degreeDatas.insatiable.label>
+  <RJW_Traits_Insatiable.degreeDatas.insatiable.description>[PAWN_nameDef]极度渴望亲密，无论{PAWN_pronoun}已经交合了多少次，因为{PAWN_possessive}性欲永不减退。然而，[PAWN_nameDef]仍然有自己的偏好，并不会与{PAWN_pronoun}见到的任何人亲热。</RJW_Traits_Insatiable.degreeDatas.insatiable.description>
+  
+  <RJW_Traits_Playful_Sadist.degreeDatas.playful_sadist.label>戏谑的施虐狂</RJW_Traits_Playful_Sadist.degreeDatas.playful_sadist.label>
+  <RJW_Traits_Playful_Sadist.degreeDatas.playful_sadist.description>{PAWN_nameDef}有点儿施虐倾向。制造痛苦、放血以及其他形式的暴力行为会激起{PAWN_pronoun}的性欲。如果得不到满足，{PAWN_nameDef}会毫不犹豫地虐待弱者。</RJW_Traits_Playful_Sadist.degreeDatas.playful_sadist.description>
+  
+  <RJW_Traits_Pliable.degreeDatas.pliable.label>软弱</RJW_Traits_Pliable.degreeDatas.pliable.label>
+  <RJW_Traits_Pliable.degreeDatas.pliable.description>[PAWN_nameDef]显得柔弱而迷人，这往往给{PAWN_possessive}自己带来伤害。{PAWN_pronoun}更容易遭到骚扰。</RJW_Traits_Pliable.degreeDatas.pliable.description>
+  
+  <RJW_Traits_Rapetoy.degreeDatas.rapetoy.label>强奸玩具</RJW_Traits_Rapetoy.degreeDatas.rapetoy.label>
+  <RJW_Traits_Rapetoy.degreeDatas.rapetoy.description>[PAWN_nameDef]就像一件精致的艺术品，极其美丽又极度脆弱。{PAWN_pronoun}如此诱人且不堪一击，仿佛天生就是为了被凌虐。</RJW_Traits_Rapetoy.degreeDatas.rapetoy.description>
+  
+  <RJW_Traits_Sexually_Numb.degreeDatas.sexually_indifferent.label>性事淡漠</RJW_Traits_Sexually_Numb.degreeDatas.sexually_indifferent.label>
+  <RJW_Traits_Sexually_Numb.degreeDatas.sexually_indifferent.description>[PAWN_nameDef]对任何类型的性行为既不喜欢也不讨厌。{PAWN_pronoun}不需要它，对它没有感觉，就算有人利用{PAWN_objective}，{PAWN_pronoun}也不会在意。</RJW_Traits_Sexually_Numb.degreeDatas.sexually_indifferent.description>
+  
+  <RJW_Traits_Submissive.degreeDatas.meek.label>温顺</RJW_Traits_Submissive.degreeDatas.meek.label>
+  <RJW_Traits_Submissive.degreeDatas.meek.description>[PAWN_nameDef]过于顺从，无法反抗，默默忍受冒犯。然而，{PAWN_pronoun}并不享受这种虐待，如果被压垮将会精神崩溃。</RJW_Traits_Submissive.degreeDatas.meek.description>
+  
+  <RJW_Traits_Tomboy.degreeDatas.tomboy.label>假小子</RJW_Traits_Tomboy.degreeDatas.tomboy.label>
+  <RJW_Traits_Tomboy.degreeDatas.tomboy.description>[PAWN_nameDef]尽管是女性，外表和心态都有些男性化。她不介意穿着传统男性服装，并表现出刻板印象中的男性举止。</RJW_Traits_Tomboy.degreeDatas.tomboy.description>
+  
+  <RJW_Traits_xxCel.degreeDatas.incel.label>非自愿独身男</RJW_Traits_xxCel.degreeDatas.incel.label>
+  <RJW_Traits_xxCel.degreeDatas.incel.description>[PAWN_nameDef]由于感受到被拒绝，对异性怀有深深的怨恨。{PAWN_pronoun}在社交中挣扎，并对恋爱关系抱有负面态度。</RJW_Traits_xxCel.degreeDatas.incel.description>
+  <RJW_Traits_xxCel.degreeDatas.incel.labelFemale>非自愿独身女</RJW_Traits_xxCel.degreeDatas.incel.labelFemale>
+  
+</LanguageData>

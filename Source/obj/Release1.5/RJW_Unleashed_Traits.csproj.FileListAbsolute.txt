@@ -1,0 +1,12 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Traits\1.5\RJW_Unleashed_Traits\obj\Release1.5\RJW_Unleashed_Traits.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Traits\1.5\RJW_Unleashed_Traits\obj\Release1.5\RJW_Unleashed_Traits.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Traits\1.5\RJW_Unleashed_Traits\bin\Release1.5\RJW_Unleashed_Traits.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Traits\1.5\RJW_Unleashed_Traits\bin\Release1.5\RJW.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Traits\1.5\RJW_Unleashed_Traits\bin\Release1.5\0MultiplayerAPI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Traits\1.5\RJW_Unleashed_Traits\obj\Release1.5\RJW_Unle.9236861A.Up2Date
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RJW_Traits\1.5\RJW_Unleashed_Traits\obj\Release1.5\RJW_Unleashed_Traits.dll
+C:\Users\Archer\Desktop\RJW_Unleashed_Traits\bin\Release1.5\RJW_Unleashed_Traits.dll
+C:\Users\Archer\Desktop\RJW_Unleashed_Traits\obj\Release1.5\RJW_Unleashed_Traits.csproj.AssemblyReference.cache
+C:\Users\Archer\Desktop\RJW_Unleashed_Traits\obj\Release1.5\RJW_Unleashed_Traits.csproj.CoreCompileInputs.cache
+C:\Users\Archer\Desktop\RJW_Unleashed_Traits\obj\Release1.5\RJW_Unle.9236861A.Up2Date
+C:\Users\Archer\Desktop\RJW_Unleashed_Traits\obj\Release1.5\RJW_Unleashed_Traits.dll

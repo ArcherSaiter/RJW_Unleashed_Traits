@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--
+		Sexual Predator (def-driven effects).
+		All capacity/stat numbers live here, tuned like any other HediffDef.
+		The hediff is applied to pawns with RJW_Traits_Sexual_Predator and its
+		severity is driven by how pent-up the pawn is (see Patch_SexualPredator_Driver).
+		severity 0 = satisfied (no effect) ... severity 1 = desperate (full effect).
+	-->
+	<HediffDef>
+		<defName>RJW_SexualPredator_Instinct</defName>
+		<label>predatory instinct</label>
+		<description>Raw, pent-up urges sharpen this pawn's senses and body. The longer they are denied, the deadlier they become - and the less they care for careful work.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<initialSeverity>0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<label>stirring</label>
+				<minSeverity>0.0</minSeverity>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>restless</label>
+				<minSeverity>0.25</minSeverity>
+				<becomeVisible>true</becomeVisible>
+				<capMods>
+					<li><capacity>Sight</capacity><postFactor>1.25</postFactor></li>
+					<li><capacity>Hearing</capacity><postFactor>1.25</postFactor></li>
+					<li><capacity>Moving</capacity><postFactor>1.25</postFactor></li>
+					<li><capacity>Manipulation</capacity><postFactor>1.25</postFactor></li>
+					<li><capacity>Talking</capacity><postFactor>1.25</postFactor></li>
+				</capMods>
+				<statFactors>
+					<WorkSpeedGlobal>0.875</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+			<li>
+				<label>hunting</label>
+				<minSeverity>0.5</minSeverity>
+				<capMods>
+					<li><capacity>Sight</capacity><postFactor>1.5</postFactor></li>
+					<li><capacity>Hearing</capacity><postFactor>1.5</postFactor></li>
+					<li><capacity>Moving</capacity><postFactor>1.5</postFactor></li>
+					<li><capacity>Manipulation</capacity><postFactor>1.5</postFactor></li>
+					<li><capacity>Talking</capacity><postFactor>1.5</postFactor></li>
+				</capMods>
+				<statFactors>
+					<WorkSpeedGlobal>0.75</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+			<li>
+				<label>feral</label>
+				<minSeverity>0.75</minSeverity>
+				<capMods>
+					<li><capacity>Sight</capacity><postFactor>1.75</postFactor></li>
+					<li><capacity>Hearing</capacity><postFactor>1.75</postFactor></li>
+					<li><capacity>Moving</capacity><postFactor>1.75</postFactor></li>
+					<li><capacity>Manipulation</capacity><postFactor>1.75</postFactor></li>
+					<li><capacity>Talking</capacity><postFactor>1.75</postFactor></li>
+				</capMods>
+				<statFactors>
+					<WorkSpeedGlobal>0.625</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+			<li>
+				<label>about to snap</label>
+				<minSeverity>1.0</minSeverity>
+				<capMods>
+					<li><capacity>Sight</capacity><postFactor>2.0</postFactor></li>
+					<li><capacity>Hearing</capacity><postFactor>2.0</postFactor></li>
+					<li><capacity>Moving</capacity><postFactor>2.0</postFactor></li>
+					<li><capacity>Manipulation</capacity><postFactor>2.0</postFactor></li>
+					<li><capacity>Talking</capacity><postFactor>2.0</postFactor></li>
+				</capMods>
+				<statFactors>
+					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

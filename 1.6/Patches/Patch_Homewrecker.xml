@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName="RebuffedMyRomanceAttempt"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName="RebuffedMyRomanceAttempt"]/nullifyingTraits</xpath>
+        <value>
+            <li>RJW_Traits_Homewrecker</li>
+        </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName="RebuffedMyRomanceAttempt"]</xpath>
+        <value>
+          <nullifyingTraits>
+            <li>RJW_Traits_Homewrecker</li>
+          </nullifyingTraits>
+        </value>
+    </nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThoughtDef[defName="RebuffedMyRomanceAttemptMood"]/nullifyingTraits</xpath>
+    <match Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName="RebuffedMyRomanceAttemptMood"]/nullifyingTraits</xpath>
+        <value>
+            <li>RJW_Traits_Homewrecker</li>
+        </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName="RebuffedMyRomanceAttemptMood"]</xpath>
+        <value>
+          <nullifyingTraits>
+            <li>RJW_Traits_Homewrecker</li>
+          </nullifyingTraits>
+        </value>
+    </nomatch>
+</Operation>
+</Patch>
