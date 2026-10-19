@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef MayRequire="vegapnk.rjw.genes" Name="TDiseaseBase" Abstract="True">
+        <displayCategory>rjw_genes_diseases</displayCategory>
+        <randomChosen>false</randomChosen>
+        <modExtensions>
+            <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core"
+                Class="VanillaGenesExpanded.GeneExtension">
+                <backgroundPathEndogenes>Genes/Icons/RJW_Genes_Endogene_Disease_Background</backgroundPathEndogenes>
+                <backgroundPathXenogenes>Genes/Icons/RJW_Genes_Endogene_Disease_Background</backgroundPathXenogenes>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+	<GeneDef ParentName="TDiseaseBase" MayRequire="vegapnk.rjw.genes">
+        <defName>RJW_Unleashed_Bimbofier</defName>
+        <label>Bimbofier</label>
+        <description>Carriers of this gene slowly change their partners into dumb, but stereotypically attractive versions.</description>
+        <iconPath>Genes/Icons/Playful_sadist</iconPath>
+        <biostatCpx>3</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <displayOrderInCategory>50</displayOrderInCategory>
+        <modExtensions>
+            <li Class="RJW_Genes.ImmunityAgainstGenesExtension">
+                <givesImmunityAgainst>
+                    <li>RJW_Unleashed_Bimbofier</li>
+                </givesImmunityAgainst>
+            </li>
+            <li Class="RJW_Genes.HediffIncreaseOnSexExtension">
+                <hediffDef>RJW_Unleashed_Bimbofication</hediffDef>
+                <canCreateHediff>true</canCreateHediff>
+                <severityIncrease>0.2</severityIncrease>
+                <applicationChance>1.00</applicationChance>
+                <applicableForWomen>true</applicableForWomen>
+                <applicableForMen>true</applicableForMen>
+                <requiresPenetrativeSex>false</requiresPenetrativeSex>
+            </li>
+            <li Class="RJW_Genes.GeneAlteringExtension">
+                <majorGenes>
+					<li>MeleeDamage_Weak</li>
+					<li>rjw_genes_big_breasts</li>
+					<li>rjw_genes_lifeforce</li>
+					<li>rjw_genes_seduce</li>
+                </majorGenes>
+                <minorGenes>
+                    <li>RJW_Traits_Bimbo_Gene</li>
+					<li>rjw_genes_big_breasts</li>
+                    <li>Beard_NoBeardOnly</li>
+					<li>Body_Standard</li>
+					<li>Hair_Blonde</li>
+					<li>Hair_Grayless</li>
+					<li>Mood_Optimist</li>
+					<li>rjw_genes_size_blinded</li>
+                </minorGenes>
+                <minorApplicationChance>0.75</minorApplicationChance>
+                <majorApplicationChance>0.35</majorApplicationChance>
+            </li>
+        </modExtensions>
+    </GeneDef>
+	
+	<GeneDef ParentName="TDiseaseBase" MayRequire="vegapnk.rjw.genes">
+        <defName>RJW_Unleashed_Femboifier</defName>
+        <label>Femboifier</label>
+        <description>Carriers of this gene slowly change their male partners into breedable femboys.</description>
+        <iconPath>Genes/Icons/feminizer</iconPath>
+        <biostatCpx>3</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <displayOrderInCategory>51</displayOrderInCategory>
+        <modExtensions>
+            <li Class="RJW_Genes.ImmunityAgainstGenesExtension">
+                <givesImmunityAgainst>
+                    <li>RJW_Unleashed_Femboifier</li>
+                </givesImmunityAgainst>
+            </li>
+            <li Class="RJW_Genes.HediffIncreaseOnSexExtension">
+                <hediffDef>RJW_Unleashed_Femboification</hediffDef>
+                <canCreateHediff>true</canCreateHediff>
+                <severityIncrease>0.1</severityIncrease>
+                <applicationChance>1.00</applicationChance>
+                <applicableForWomen>false</applicableForWomen>
+                <applicableForMen>true</applicableForMen>
+                <requiresPenetrativeSex>false</requiresPenetrativeSex>
+            </li>
+            <li Class="RJW_Genes.GeneAlteringExtension">
+                <majorGenes>
+					<li>rjw_genes_size_blinded</li>
+					<li>rjw_genes_femboy</li>
+					<li>rjw_genes_small_male_genitalia</li>
+					<li>rjw_genes_small_breasts</li>
+					<li>rjw_genes_fertile_anus</li>
+                </majorGenes>
+                <minorGenes>
+                    <li>Delicate</li>
+					<li>Libido_High</li>
+					<li>Hair_LongOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li MayRequire="vegapnk.cumpilation">rjw_genes_inflatable</li>
+					<li>rjw_genes_infectious_bisexuality</li>
+					<li>rjw_genes_hormonal_saliva</li>
+                </minorGenes>
+                <minorApplicationChance>0.75</minorApplicationChance>
+                <majorApplicationChance>0.35</majorApplicationChance>
+            </li>
+        </modExtensions>
+    </GeneDef>
+	
+	<GeneDef ParentName="TDiseaseBase" MayRequire="vegapnk.rjw.genes">
+        <defName>RJW_Unleashed_Tomboifier</defName>
+        <label>Tomboifier</label>
+        <description>Carriers of this gene slowly change their female partners into tomboys.</description>
+        <iconPath>Genes/Icons/Placeholder</iconPath>
+        <biostatCpx>3</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <displayOrderInCategory>52</displayOrderInCategory>
+        <modExtensions>
+            <li Class="RJW_Genes.ImmunityAgainstGenesExtension">
+                <givesImmunityAgainst>
+                    <li>RJW_Unleashed_Tomboifier</li>
+                </givesImmunityAgainst>
+            </li>
+            <li Class="RJW_Genes.HediffIncreaseOnSexExtension">
+                <hediffDef>RJW_Unleashed_Tomboification</hediffDef>
+                <canCreateHediff>true</canCreateHediff>
+                <severityIncrease>0.1</severityIncrease>
+                <applicationChance>1.00</applicationChance>
+                <applicableForWomen>true</applicableForWomen>
+                <applicableForMen>false</applicableForMen>
+                <requiresPenetrativeSex>false</requiresPenetrativeSex>
+            </li>
+            <li Class="RJW_Genes.GeneAlteringExtension">
+                <majorGenes>
+					<li>Aggression_Aggressive</li>
+					<li>MeleeDamage_Strong</li>
+					<li>rjw_genes_aphrodisiac_pheromones</li>
+                </majorGenes>
+                <minorGenes>
+                    <li>Libido_High</li>
+					<li>Hair_ShortOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Body_Standard</li>
+					<li>Body_Thin</li>
+					<li>MaxTemp_SmallIncrease</li>
+                </minorGenes>
+                <minorApplicationChance>0.75</minorApplicationChance>
+                <majorApplicationChance>0.35</majorApplicationChance>
+            </li>
+        </modExtensions>
+    </GeneDef>
+	
+	<GeneDef ParentName="TDiseaseBase" MayRequire="vegapnk.rjw.genes">
+        <defName>RJW_Unleashed_Rapetoifyer</defName>
+        <label>Toifier</label>
+        <description>Carriers of this gene slowly change their partners into submissive rapetoys, and, eventually, masochists.</description>
+        <iconPath>Genes/Icons/Brutal_sadist</iconPath>
+        <biostatCpx>3</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <displayOrderInCategory>53</displayOrderInCategory>
+        <modExtensions>
+            <li Class="RJW_Genes.ImmunityAgainstGenesExtension">
+                <givesImmunityAgainst>
+                    <li>RJW_Unleashed_Rapetoifyer</li>
+                </givesImmunityAgainst>
+            </li>
+            <li Class="RJW_Genes.HediffIncreaseOnSexExtension">
+                <hediffDef>RJW_Unleashed_Rapetoification</hediffDef>
+                <canCreateHediff>true</canCreateHediff>
+                <severityIncrease>0.1</severityIncrease>
+                <applicationChance>1.00</applicationChance>
+                <applicableForWomen>true</applicableForWomen>
+                <applicableForMen>true</applicableForMen>
+                <requiresPenetrativeSex>false</requiresPenetrativeSex>
+            </li>
+            <li Class="RJW_Genes.GeneAlteringExtension">
+                <majorGenes>
+					<li>Libido_High</li>
+					<li>Aggression_DeadCalm</li>
+					<li>rjw_genes_masochist</li>
+					<li>rjw_genes_hormonal_saliva</li>
+					<li MayRequire="vegapnk.cumpilation">rjw_genes_inflatable</li>
+                </majorGenes>
+                <minorGenes>
+                    <li>RJW_Traits_Submissive_Gene</li>
+					<li>RJW_Traits_Rapetoy_Gene</li>
+					<li>AptitudePoor_Shooting</li>
+					<li>AptitudePoor_Melee</li>
+					<li>MeleeDamage_Weak</li>
+					<li>MoveSpeed_Slow</li>
+					<li>rjw_genes_aphrodisiac_pheromones</li>
+                </minorGenes>
+                <minorApplicationChance>0.75</minorApplicationChance>
+                <majorApplicationChance>0.35</majorApplicationChance>
+            </li>
+        </modExtensions>
+    </GeneDef>
+	
+	<GeneDef ParentName="TDiseaseBase" MayRequire="vegapnk.rjw.genes">
+        <defName>RJW_Unleashed_InsatiableInfective</defName>
+        <label>Infective insatiability</label>
+        <description>Carriers of this gene are unnaturally lustful, and tend to spread their lust as a disease.</description>
+        <iconPath>Genes/Icons/Insatiable</iconPath>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>2</biostatMet>
+        <displayOrderInCategory>60</displayOrderInCategory>
+		<forcedTraits>
+            <li>
+                <def>RJW_Traits_Insatiable</def>
+            </li>
+        </forcedTraits>
+        <modExtensions>
+            <li Class="RJW_Genes.ImmunityAgainstGenesExtension">
+                <givesImmunityAgainst>
+                    <li>RJW_Unleashed_InsatiableInfective</li>
+                </givesImmunityAgainst>
+            </li>
+			<li Class="RJW_Genes.GeneticInfectorExtension">
+                <infectionChance>0.05</infectionChance>
+                <infectionGenes>
+                    <li>RJW_Unleashed_InsatiableInfective</li>
+                </infectionGenes>
+            </li>
+        </modExtensions>
+		<exclusionTags>
+			<li>Sex_Thirst</li>
+		</exclusionTags>
+    </GeneDef>
+
+</Defs>

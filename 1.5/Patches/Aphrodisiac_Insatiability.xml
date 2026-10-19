@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RJW_Unleashed_Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AphrodisiacFruit"]/modExtensions/li/effectTraitDef</xpath>
+                <value>
+					<effectTraitDef>
+						<li>RJW_Traits_Insatiable</li>
+					</effectTraitDef>
+				</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="AphrodisiacFruit"]/modExtensions/li/effectGeneDef</xpath>
+				<value>
+					<effectGeneDef>
+						<li>RJW_Traits_Insatiable_Gene</li>
+					</effectGeneDef>
+				</value>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+</Patch>

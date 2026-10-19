@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>The Saiyans</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+                <xpath>Defs/TraitDef[defName="SR_KiUser"]/degreeDatas/li/statFactors</xpath>
+				<value>
+					<Vulnerability>0.6</Vulnerability>
+				</value>
+            </li>
+			<li Class="PatchOperationAdd">
+                <xpath>Defs/TraitDef[defName="SR_SuperSaiyanTrait" or defName="SR_LegendarySuperSaiyanTrait"]/degreeDatas/li</xpath>
+				<value>
+					<statFactors>
+						<Vulnerability>0.3</Vulnerability>
+					</statFactors>
+				</value>
+            </li>
+			<li Class="PatchOperationAdd">
+                <xpath>Defs/GeneDef[defName="SR_HalfSaiyanClassSaiyan" or defName="SR_LowClassSaiyan" or defName="SR_NormalClassSaiyan" or defName="SR_EliteClassSaiyan"]/statFactors</xpath>
+				<value>
+					<Vulnerability>0.5</Vulnerability>
+				</value>
+            </li>
+			<li Class="PatchOperationAdd">
+                <xpath>Defs/GeneDef[defName="SR_LegendaryClassSaiyan"]/statFactors</xpath>
+				<value>
+					<Vulnerability>0.3</Vulnerability>
+				</value>
+            </li>
+        </operations>
+    </match>
+</Operation>
+</Patch>

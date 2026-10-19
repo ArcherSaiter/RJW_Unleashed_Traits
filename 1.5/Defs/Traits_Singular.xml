@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TraitDef>
+        <defName>RJW_Traits_Playful_Sadist</defName>
+        <commonality>0.5</commonality>
+        <degreeDatas>
+			<li>
+            <label>playful sadist</label>
+            <description>{PAWN_nameDef} is a bit sadistic. Inflicting pain, letting blood, and  other forms of violent work turn {PAWN_pronoun} on. If unsatisfied, {PAWN_nameDef} will not think twice about abusing the vulnerable.</description>
+            <socialFightChanceFactor>2</socialFightChanceFactor>
+            <allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>
+			<statOffsets>
+				<SexFrequency>0.1</SexFrequency>
+				<Vulnerability>-0.5</Vulnerability>
+			</statOffsets>
+			<randomMentalState>RandomRape</randomMentalState>
+			<randomMentalStateMtbDaysMoodCurve>
+				<points>
+					<li>(0, 15)</li>
+					<li>(25, 50)</li>
+					<li>(50, 100)</li>
+				</points>
+			</randomMentalStateMtbDaysMoodCurve>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<conflictingTraits>
+			<li>RJW_Traits_Brutal_Sadist</li>
+		</conflictingTraits>
+	</TraitDef>
+
+    <TraitDef>
+		<defName>RJW_Traits_Brutal_Sadist</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+			<label>brutal sadist</label>
+			<description>{PAWN_nameDef} eerily enjoys the sight of blood, pained screams, and inflicting harm, especially torture. {PAWN_pronoun} will often try to satisfy {PAWN_objective}self forcibly, much to the detriment of vulnerable.</description>
+			<socialFightChanceFactor>5</socialFightChanceFactor>
+			<allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>
+			<statOffsets>
+				<SexFrequency>0.25</SexFrequency>
+				<Vulnerability>-1</Vulnerability>
+			</statOffsets>
+			<randomMentalState>RandomRape</randomMentalState>
+			<randomMentalStateMtbDaysMoodCurve>
+				<points>
+					<li>(0, 5)</li>
+					<li>(25, 15)</li>
+					<li>(50, 25)</li>
+				</points>
+			</randomMentalStateMtbDaysMoodCurve>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<conflictingTraits>
+			<li>Kind</li>
+			<li>RJW_Traits_Playful_Sadist</li>
+		</conflictingTraits>
+    </TraitDef>
+  
+	<TraitDef>
+		<defName>RJW_Traits_Pliable</defName>
+		<commonality>0.5</commonality>
+		<degreeDatas>
+			<li>
+			<label>pliable</label>
+			<description>[PAWN_nameDef] comes across as weak, yet attractive, often to {PAWN_possessive} own detriment. {PAWN_pronoun} is much more likely to be harassed.</description>
+			<statOffsets>
+				<PawnBeauty>1</PawnBeauty>
+				<Vulnerability>2</Vulnerability>
+			</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>RJW_Traits_Rapetoy</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+			<label>rapetoy</label>
+			<description>[PAWN_nameDef] looks like a delicate work of art, extremely beautiful and exceedingly fragile. {PAWN_pronoun} is so alluring and vulnerable, as if {PAWN_pronoun} was made to be abused.</description>
+			<statOffsets>
+				<PawnBeauty>2</PawnBeauty>
+				<Vulnerability>5</Vulnerability>
+			</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>RJW_Traits_Submissive</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+			<label>meek</label>
+			<description>[PAWN_nameDef] is too submissive to fight back and puts up with offence. However, {PAWN_pronoun} doesn't enjoy the abuse, and will feel broken if overwhelmed.</description>
+			<statOffsets>
+				<Vulnerability>0.5</Vulnerability>
+				<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>RJW_Traits_Insatiable</defName>
+		<commonality>0.05</commonality>
+		<degreeDatas>
+			<li>
+			<label>insatiable</label>
+			<description><!--[PAWN_nameDef] does not get a libido reduction after orgasm, yet gets distinct surges of pleasure with each one. As a result, [PAWN_nameDef] eagers to fuck indefinitely, until {PAWN_pronoun} dies.-->[PAWN_nameDef] is extremely desperate for intimacy, regardless of how many times {PAWN_pronoun} already had intercourse due to {PAWN_possessive} never decreasing libido. However, [PAWN_nameDef] still has {PAWN_possessive} preferences, and will not get intimate with anyone {PAWN_pronoun} sees.</description>
+			<statOffsets>
+				<Vulnerability>0.1</Vulnerability>
+				<SexFrequency>5.0</SexFrequency>
+			</statOffsets>
+			<!--statFactors>
+				<SexFrequency>5.0</SexFrequency>
+			</statFactors-->
+			<allowedMeditationFocusTypes>
+				<li>Sex</li>
+			</allowedMeditationFocusTypes>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>RJW_Traits_Animal_Mind</defName>
+		<commonality>0.01</commonality>
+		<disabledWorkTags>
+			<li>ManualSkilled</li>
+			<li>Cooking</li>
+			<!--<li>Social</li>
+			<li>Caring</li>-->
+			<li>Shooting</li>
+			<li>Constructing</li>
+			<!--<li>PlantWork</li>-->
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</disabledWorkTags>
+		<degreeDatas>
+			<li>
+			<label>animalistic</label>
+			<description>[PAWN_nameDef]'s brain is unusually simple for their kind, and is not capable of even somewhat complex thinking or work, very little besides food bothers them.</description>
+			<statOffsets>
+				<PsychicSensitivity>-0.9</PsychicSensitivity>
+				<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+			</statOffsets>
+			<disablesNeeds>
+				<li>Comfort</li>
+				<li>Joy</li>
+				<li>Beauty</li>
+				<li>Indoors</li> 
+			</disablesNeeds>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>RJW_Traits_Sexually_Numb</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+			<label>sexually indifferent</label>
+			<description>[PAWN_nameDef] neither likes nor dislikes any type of sex. {PAWN_pronoun} does not need it, does not feel it, and will not care if someone exploits {PAWN_objective}.</description>			
+			<statOffsets>
+				<Vulnerability>-0.1</Vulnerability>
+				<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				<PsychicSensitivity>-1</PsychicSensitivity>
+				<!--SexFrequency>-100.0</SexFrequency-->
+			</statOffsets>
+			<!--statFactors>
+				<SexFrequency>0</SexFrequency>
+			</statFactors-->
+			<disablesNeeds>
+			  <li>Sex</li>
+			</disablesNeeds>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+	<defName>RJW_Traits_Bimbo</defName>
+	<commonality>0.05</commonality>
+	<forcedPassions>
+        <li MayRequire="rjw.sexperience">Sex</li>
+		<li>Social</li>
+    </forcedPassions>
+	<disabledWorkTags>
+		<li>ManualSkilled</li>
+		<li>Intellectual</li>
+	</disabledWorkTags>
+	<degreeDatas>
+		<li>
+		<label>himbo</label>
+		<labelFemale>bimbo</labelFemale>
+		<description>[PAWN_nameDef] is an attractive being, who can't seem to think about anything except {PAWN_possessive} own physical appearance. {PAWN_objective} is  as empty-headed as a soap bubble, completely absorbed in {PAWN_possessive} own vanity and will do just about anything to stay attractive, including {PAWN_possessive} own dignity. [PAWN_nameDef] is utterly clueless and has no idea how {PAWN_possessive} actions affect those around them. Better keep a close eye on {PAWN_objective}, or {PAWN_pronoun} might just get {PAWN_objective} into trouble... or a mess. Again. And again. And again. However, despite the lack of learning and basic intellectual capabilities {PAWN_pronoun} is quite good at providing sexual pleasure.</description>
+		<statOffsets>
+			<PawnBeauty>1</PawnBeauty>
+			<GlobalLearningFactor>-0.75</GlobalLearningFactor>
+			<SocialImpact>-0.5</SocialImpact>
+			<Vulnerability>0.75</Vulnerability>
+			<SexFrequency>0.5</SexFrequency>
+		</statOffsets>
+		<skillGains>
+			<Intellectual>-8</Intellectual>
+			<Social>3</Social>
+			<Sex MayRequire="rjw.sexperience">8</Sex>
+        </skillGains>
+		</li>
+	</degreeDatas>
+	</TraitDef>
+	
+	<!--<TraitDef>
+	<defName>RJW_Traits_Porn_Addict</defName>
+	<commonality>0.<!{1}**1**{1}>0</commonality>
+	<forcedPassions>
+        <li MayRequire="rjw.sexperience">Sex</li>
+    </forcedPassions>
+	<degreeDatas>
+		<li>
+		<label>porn addict</label>
+		<description>.</description>
+		<statOffsets>
+			<SocialImpact>-0.35</SocialImpact>
+			<Vulnerability>0.15</Vulnerability>
+			<SexFrequency>0.75</SexFrequency>
+		</statOffsets>
+		<skillGains>
+			<Social>-2</Social>
+			<Sex MayRequire="rjw.sexperience">2</Sex>
+        </skillGains>
+		</li>
+	</degreeDatas>
+	</TraitDef>-->
+	
+	<TraitDef>
+	<defName>RJW_Traits_xxCel</defName>
+	<commonality>0.1</commonality>
+	<degreeDatas>
+		<li>
+		<label>incel</label>
+		<labelFemale>femcel</labelFemale>
+		<description>[PAWN_nameDef] has a deep resentment towards the opposite sex due to perceived rejection. {PAWN_pronoun} struggles with social interactions and harbors negative attitudes about relationships.</description>
+		<marketValueFactorOffset>-0.15</marketValueFactorOffset>
+		<statOffsets>
+			<SocialImpact>-0.25</SocialImpact>
+			<Vulnerability>0.15</Vulnerability>
+			<SexFrequency>-0.25</SexFrequency>
+			<MentalBreakThreshold>0.10</MentalBreakThreshold>
+		</statOffsets>
+		<randomMentalState>RandomRape</randomMentalState>
+		<randomMentalStateMtbDaysMoodCurve>
+			<points>
+				<li>(0, 20)</li>
+				<li>(20, 60)</li>
+				<li>(35, 120)</li>
+			</points>
+		</randomMentalStateMtbDaysMoodCurve>		
+		<skillGains>
+			<Social>-3</Social>
+			<Sex MayRequire="rjw.sexperience">-2</Sex>
+        </skillGains>
+		</li>
+	</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+	<defName>RJW_Traits_Femboy</defName>
+	<commonality>0.1</commonality>
+	<commonalityFemale>0.0</commonalityFemale>
+	<degreeDatas>
+		<li>
+		<label>femboy</label>
+		<description>[PAWN_nameDef] has quite femine apperance, as well as mentality, despite being a male. He doesn't mind dressing in traditionally feminine attire and adopting mannerisms that are stereotypically feminine.</description>
+		<statOffsets>
+			<PawnBeauty>1</PawnBeauty>
+			<Vulnerability>0.20</Vulnerability>
+			<SexFrequency>0.20</SexFrequency>
+			<MentalBreakThreshold>0.05</MentalBreakThreshold>
+		</statOffsets>
+		<skillGains>
+			<Social>2</Social>
+			<Sex MayRequire="rjw.sexperience">2</Sex>
+        </skillGains>
+		</li>
+	</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+	<defName>RJW_Traits_Tomboy</defName>
+	<commonality>0.0</commonality>
+	<commonalityFemale>0.1</commonalityFemale>
+	<degreeDatas>
+		<li>
+		<label>tomboy</label>
+		<description>[PAWN_nameDef] has somewhat masculine apperance, as well as mentality, despite being a female. She doesn't mind dressing in traditionally masculine attire and adopting mannerisms that are stereotypically masculine.</description>
+		<statOffsets>
+			<PawnBeauty>1</PawnBeauty>
+			<Vulnerability>-0.20</Vulnerability>
+			<SexFrequency>0.20</SexFrequency>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		</statOffsets>
+		<skillGains>
+			<Social>2</Social>
+			<Sex MayRequire="rjw.sexperience">2</Sex>
+        </skillGains>
+		</li>
+	</degreeDatas>
+	</TraitDef>
+	
+</Defs>
