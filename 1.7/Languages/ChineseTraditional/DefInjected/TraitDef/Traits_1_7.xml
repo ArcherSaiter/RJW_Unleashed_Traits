@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RJW_Traits_Sexual_Predator.degreeDatas.0.label>性掠奪者</RJW_Traits_Sexual_Predator.degreeDatas.0.label>
+  <RJW_Traits_Sexual_Predator.degreeDatas.0.description>[PAWN_nameDef]隨時可能犯下性侵。慾望壓抑得越久，{PAWN_pronoun}的感官就越敏銳，也越可能讓衝動淹沒其他念頭，進而不顧他人感受，強行奪取自己想要的一切。不過，{PAWN_pronoun}善於察覺弱點，也因此更擅長在戰鬥中運用武力。</RJW_Traits_Sexual_Predator.degreeDatas.0.description>
+  <RJW_Traits_Degrader.degreeDatas.0.label>羞辱者</RJW_Traits_Degrader.degreeDatas.0.label>
+  <RJW_Traits_Degrader.degreeDatas.0.description>[PAWN_nameDef]會從貶低與羞辱自己暗中渴望的對象之中獲得快感。{PAWN_pronoun}很可能對心儀的對象出言辱罵。</RJW_Traits_Degrader.degreeDatas.0.description>
+  <RJW_Traits_Degradee.degreeDatas.0.label>受辱者</RJW_Traits_Degradee.degreeDatas.0.label>
+  <RJW_Traits_Degradee.degreeDatas.0.description>[PAWN_nameDef]樂於被人看不起。辱罵與羞辱不會傷害{PAWN_objective}，反而會讓{PAWN_objective}感到異樣的喜悅，並對羞辱自己的人產生好感。</RJW_Traits_Degradee.degreeDatas.0.description>
+  <RJW_Traits_Homewrecker.degreeDatas.0.label>感情破壞者</RJW_Traits_Homewrecker.degreeDatas.0.label>
+  <RJW_Traits_Homewrecker.degreeDatas.0.description>[PAWN_nameDef]完全不在乎他人既有的感情關係。已有伴侶的人最具誘惑力，{PAWN_pronoun}會不擇手段地勾引對方，從不為自己的追求或留下的爛攤子感到羞愧。即使遭到拒絕，[PAWN_nameDef]也毫不在意，仍會繼續嘗試，直到得償所願。</RJW_Traits_Homewrecker.degreeDatas.0.description>
+</LanguageData>
